@@ -1,9 +1,10 @@
 
 import './App.css';
 import {CounterDisplay} from "./CounterDisplay";
+import {useState} from "react";
 
 function App() {
-  const count = 0;
+  const [count, setCount] = useState(0);
   return (
     <div className="App">
       <CounterDisplay
@@ -13,7 +14,7 @@ function App() {
       <button
         className="counter-button"
         onClick={() => {
-          window.alert("Clicked")
+          setCount(count + 1);
         }}
       >Click</button>
     </div>
