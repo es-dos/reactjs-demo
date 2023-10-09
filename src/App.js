@@ -1,12 +1,11 @@
 
 import './App.css';
+import {CounterDisplay} from "./CounterDisplay";
 
 function App() {
-  const count = 0;
   return (
     <div className="App">
-      <p className="counter">{count}</p>
-      <p className="counter-label">clicks</p>
+      <CounterDisplay />
       <br />
       <button className="counter-button">Click</button>
     </div>
