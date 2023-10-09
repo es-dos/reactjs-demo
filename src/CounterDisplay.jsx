@@ -1,5 +1,4 @@
-export const CounterDisplay = () => {
-  const count = 0;
+export const CounterDisplay = ({count}) => {
   return (
     <div className>
       <p className="counter">{count}</p>

@@ -3,9 +3,12 @@ import './App.css';
 import {CounterDisplay} from "./CounterDisplay";
 
 function App() {
+  const count = 0;
   return (
     <div className="App">
-      <CounterDisplay />
+      <CounterDisplay
+        count={count}
+      />
       <br />
       <button
         className="counter-button"
