@@ -7,7 +7,12 @@ function App() {
     <div className="App">
       <CounterDisplay />
       <br />
-      <button className="counter-button">Click</button>
+      <button
+        className="counter-button"
+        onClick={() => {
+          window.alert("Clicked")
+        }}
+      >Click</button>
     </div>
   );
 }
