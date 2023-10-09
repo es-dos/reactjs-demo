@@ -3,19 +3,19 @@
   padding: 6rem;
 }
 
-.timer {
+.counter {
     font-size: 10rem;
     font-weight: 100;
     margin: 0;
 }
 
-.timer-label {
+.counter-label {
     font-size: 2rem;
     font-weight: 100;
     margin: 0;
 }
 
-.timer-button {
+.counter-button {
     font-size: 2rem;
     font-weight: 100;
     margin: 0;
@@ -26,6 +26,6 @@
     cursor: pointer;
 }
 
-.timer-button:hover {
+.counter-button:hover {
     background-color: #eee;
 }
